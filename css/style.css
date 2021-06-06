@@ -7,8 +7,6 @@
   font-family: "Rubik", sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
-  line-height: 28px;
 }
 
 .nav{
@@ -201,6 +199,7 @@
   width: 540px;
   margin-left: auto;
   margin-right: auto;
+  color: #242A45;
 }
 
 .text p{
@@ -210,26 +209,180 @@
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
+  color: #242A45;
+
 }
 
 .google{
+  text-align: center;
   display: inline-block;
   width: 280px;
+  height: 370px;
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  color: #242A45;
+  margin-right: 35px;
+  box-shadow: 5px 5px 5px 1px #ccc;
+
 }
 
-.google h2{
-  display: block;
-  margin-top: 30px;
-  text-align: center;
 
-}
+.brauer__item{
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: stretch;
 
-.google p{
-  margin-right: 100px;
 }
 
 
 .brauer{
+  margin-top: 45px;
+  width: 991px;
   display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+
+
 }
+
+.div{
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: flex-end;
+	align-content: center;
+  border-radius: 15px;
+  color: #242A45;
+}
+
+.google_img{
+  margin-top: 45px;
+  margin-bottom: 32px;
+}
+
+
+.div a{
+  text-decoration: none;
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+  border-radius: 5px;
+  color: #242A45;
+}
+
+.a{
+  display: inline-block;
+  width: 231px;
+  height: 48px;
+  background-color:#5267DF;
+  color: #242A45;
+}
+
+
+
+/*-----------------------------------------------------------------------------------------*/
+
+.google__firefox{
+  text-align: center;
+  display: inline-block;
+  width: 280px;
+  height: 370px;
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  margin-top: 45px;
+  color: #242A45;
+  margin-right: 35px;
+  box-shadow: 5px 5px 5px 1px #ccc;
+
+}
+
+
+
+
+/*---------------------------------------------------------------------------------*/
+
+.google_opera{
+  text-align: center;
+  display: inline-block;
+  width: 280px;
+  height: 370px;
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  margin-top: 90px;
+  color: #242A45;
+  box-shadow: 5px 5px 5px 0px #bbb;
+
+}
+
+.google_tile{
+  display: block;
+  margin-top: 30px;
+  text-align: center;
+  opacity: 0.7;
+
+
+}
+
+.google_text{
+  margin-right: 0px;
+  opacity: 0.7;
+
+}
+
+.feature{
+  display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
+
+.feature__title{
+  display: inline-block;
+  text-align: center;
+  width: 349px;
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 52px;
+  color: #242A45;
+}
+
+.feature__text{
+  display: inline-block;
+  text-align: center;
+  width: 540px;
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  color: #242A45;
+}
+
+
+
 
